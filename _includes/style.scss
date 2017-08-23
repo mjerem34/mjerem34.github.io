@@ -1,0 +1,33 @@
+
+@import "base/variables";
+@import "base/normalize";
+@import "base/syntax";
+@import "base/general";
+@import "base/helpers";
+
+@import "pages/home-blog-projects";
+@import "pages/page";
+@import "pages/post";
+@import "pages/tags";
+
+@import "components/author";
+@import "components/disqus";
+@import "components/footer";
+@import "components/header";
+@import "components/nav";
+@import "components/others";
+@import "components/pagination";
+@import "components/related";
+@import "components/share";
+@import "components/side-by-side";
+@import "components/social-links";
+@import "components/spoiler";
+
+hr.styled {
+   height: 2px;
+   border-style: solid;
+   border-color: black;
+   border-width: 1px 0 0 0;
+   border-radius: 20px;
+   background: rgba(0,0,0,0) !important;
+}
