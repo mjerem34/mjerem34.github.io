@@ -24,10 +24,29 @@
 @import "components/spoiler";
 
 hr.styled {
-   height: 2px;
-   border-style: solid;
-   border-color: black;
-   border-width: 1px 0 0 0;
-   border-radius: 20px;
-   background: rgba(0,0,0,0) !important;
+  border-top: 1px solid #ededed;
+  padding: 40px 0;
+  margin: 40px 0 0;
+  font-size: 1.3rem;
+  color: #aaa;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+}
+hr.styled:before {
+  display: block;
+  content: " ";
+  width: 7px;
+  height: 7px;
+  border: #ededed 1px solid;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  background: #FFF;
+  box-shadow: #FFF 0 0 0 5px;
+  border-radius: 3px;
+}
+hr{
+  background: rgba(0,0,0,0) !important;
 }
