@@ -4,7 +4,7 @@ title: "Produit matriciel en Ruby"
 date: 2017-03-08 12:50:43 +0100
 author: jeremy
 comments: true
-categories: Algo
+categories: blog
 ---
 
 ```ruby

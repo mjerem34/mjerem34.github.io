@@ -12,7 +12,7 @@ layout: page
     <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
     {% if site.read-time %} - {% include read-time.html %}{% endif %}
 </span>
-<hr>
+<hr class="styled">
 {% if site.show-tags %}
     <div class="post-tags">
         {% for tag in page.tags %}
@@ -44,6 +44,4 @@ layout: page
     {% include author.html %}
 {% endif %}
 
-{% if site.disqus.categories contains page.category %}
-    {% include disqus.html %}
-{% endif %}
+{% include disqus.html %}
