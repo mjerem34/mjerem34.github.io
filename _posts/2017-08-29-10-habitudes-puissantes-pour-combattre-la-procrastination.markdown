@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 Habitudes puissantes pour combattre la procrastination"
+title: "10 habitudes puissantes pour combattre la procrastination"
 date: 2017-08-29 13:22:00 +0100
 author: jeremy
 comments: true
@@ -36,6 +36,8 @@ Alors là il n'y a pas d'application magique, tout dépend de vous. Facile si vo
 Il n'est pas bon d'interrompre une tâche commencée, que ce soit pour répondre à un mail ou passer un appel. Vous perdrez le fil de vos pensées et prendrez un beaucoup de temps à vous reconcentrer ! Prévoyez donc une plage de temps spécifique pour toutes ces tâches.
 
 Que de conseils vous me direz, c'est très bien tout ça mais n'oubliez pas le principal : **passez à l'action !**
+
+**Et vous, vous avez des habitudes pour lutter contre la procrastination ?**
 
   [638b92c0]: https://web.any.do "Any.do"
   [4606db88]: https://www.petitbambou.com/ "PetitBambou"
