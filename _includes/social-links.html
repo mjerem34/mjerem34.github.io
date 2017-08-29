@@ -54,7 +54,7 @@
     {% endif %}
 
     {% if site.github %}
-        <a class="link" data-title="framagit.org/{{ site.github }}" href="https://framagit.org/{{ site.github }}" target="_blank">
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
@@ -65,9 +65,15 @@
         </a>
     {% endif %}
 
-    {% if site.quora %}
-        <a class="link" data-title="quora.com/profile/{{ site.quora }}" href="https://www.quora.com/profile/{{ site.quora }}" target="_blank">
-            <svg class="icon icon-quora"><use xlink:href="#icon-quora"></use></svg>
+    {% if site.code %}
+        <a class="link" data-title="framagit.org/users/{{ site.code }}/snippets" href="https://framagit.org/users/{{ site.code }}/snippets" target="_blank">
+            <svg class="icon icon-code"><use xlink:href="#icon-code"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.gitlab %}
+        <a class="link" data-title="framagit.org/{{ site.gitlab }}" href="https://framagit.org/{{ site.gitlab }}" target="_blank">
+            <svg class="icon icon-gitlab"><use xlink:href="#icon-gitlab"></use></svg>
         </a>
     {% endif %}
 
