@@ -1,6 +1,6 @@
 # main text of home
 name: Jeremy Montesinos
-bio: Freelance amoureux de code, de kung fu et de nouilles
+bio: Développeur Ruby On Rails chez Af83 :D
 
 # twitter summary info
 description: Un blog à propos de programmation et d'autres choses
@@ -57,7 +57,7 @@ email: mjerem34@protonmail.com
 authors:
     jeremy:
         name: Jeremy Montesinos
-        bio: Amoureux de nouvelles technologies, de Kung Fu et de nouilles
+        bio: Développeur Ruby On Rails chez Af83 :D
         external-image: false
         picture: assets/images/myAvatar.svg
         twitter: jeremM34
